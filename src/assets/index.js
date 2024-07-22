@@ -31,9 +31,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import karamchari from "./company/karmchari.png";
 import sanga from "./company/sanga.jpg";
-
-import carrent from "./carrent.png";
-import clean from "./clean.png";
+import smart from "./smart.png";
 import visita from "./visita.png";
 import cashflow from "./cashflow.png"
 
@@ -69,8 +67,7 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  clean,
+  smart,
   visita,
   cashflow
   

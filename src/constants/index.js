@@ -11,26 +11,15 @@ import {
     flutter,
     tailwind,
     nodejs,
-    mongodb,
-    git,
-    
+    git,  
     figma,
-    docker,
     karamchari,
     sanga,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    clean,
+    smart,
     visita,
     cashflow,
-    threejs,
     next,
-    firebase,
-    sanity,
-    
+    firebase,  
   } from "../assets";
   
   export const navLinks = [
@@ -50,20 +39,20 @@ import {
   
   const services = [
     {
+      title: "Flutter Developer",
+      icon: mobile,
+    },
+    {
       title: "Web Developer",
       icon: web,
     },
     {
-      title: "Android Developer",
-      icon: mobile,
-    },
-    {
-      title: "UX/UI design",
-      icon: backend,
-    },
-    {
       title: "Content Creator",
       icon: creator,
+    },
+    {
+      title: "UX/UI Design",
+      icon: backend,
     },
   ];
   
@@ -71,6 +60,10 @@ import {
     {
       name: "HTML 5",
       icon: html,
+    },
+    {
+      name: "Flutter",
+      icon: flutter,
     },
     {
       name: "CSS 3",
@@ -96,30 +89,23 @@ import {
       name: "Tailwind CSS",
       icon: tailwind,
     },
-    {
-      name: "Flutter",
-      icon: flutter,
-    },
+    
     {
       name: "Firebase",
       icon: firebase,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
     },
     {
       name: "git",
       icon: git,
     },
     {
-      name: "Sanity",
-      icon: sanity,
-    },
-    {
       name: "NodeJS",
       icon: nodejs,
     },
+    {
+      name:"Figma",
+      icon:figma
+    }
   ];
   
   const experiences = [
@@ -149,19 +135,7 @@ import {
         "Actively participating in code reviews and providing valuable feedback to fellow developers to improve the quality of the mobile app.",
       ],
     },
-    // {
-    //   title: "Full stack Developer",
-    //   company_name: "Meta",
-    //   icon: meta,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2023 - Present",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
+  
   ];
   
   const testimonials = [
@@ -231,21 +205,21 @@ import {
       source_code_link: "https://github.com/AnishPillai2002/CashFlow",
     },
     {
-      name: "Clean Coast",
+      name: "SmartBrief",
       description:
-        "The Clean Coast web app is a user-friendly and interactive platform designed to promote and facilitate coastal cleanup initiatives.",
+        "SmartBrief is a web app that uses OpenAI to summarize articles. Simply paste the URL of a webpage, and it will generate a summary for you.",
       tags: [
         {
           name: "react-js",
           color: "blue-text-gradient",
         },
         {
-          name: "css",
+          name: "tailwind-css",
           color: "pink-text-gradient",
         },
       ],
-      image:clean,
-      source_code_link: "https://github.com/AnishPillai2002/Homepage-Clean-Coast",
+      image:smart,
+      source_code_link: "https://github.com/AnishPillai2002/SmartBrief/",
     },
   ];
   

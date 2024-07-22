@@ -69,11 +69,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in Dart and
-        JavaScript, and expertise in frameworks like React, Flutter, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I am a proficient software developer with experience in web development using React and Android app development using Flutter.
+        With expertise in frameworks like React and Flutter, I am a quick learner who collaborates effectively with clients to deliver efficient, 
+        scalable, and user-friendly solutions that address real-world challenges. Let's work together to turn your ideas into reality!
       </motion.p>
 
       {/*Div for Service Cards */}
