@@ -31,9 +31,13 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import karamchari from "./company/karmchari.png";
 import sanga from "./company/sanga.jpg";
+import apex from "./company/apex.png";
+
 import smart from "./smart.png";
 import visita from "./visita.png";
-import cashflow from "./cashflow.png"
+import cashflow from "./cashflow.png";
+import xband from "./xband.png";
+import kisan from "./kisan.png";
 
 export {
   logo,
@@ -63,12 +67,14 @@ export {
   threejs,
   karamchari,
   sanga,
+  apex,
   meta,
   shopify,
   starbucks,
   tesla,
   smart,
   visita,
-  cashflow
-  
+  cashflow,
+  xband,
+  kisan
 };

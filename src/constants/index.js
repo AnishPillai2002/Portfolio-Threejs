@@ -18,8 +18,11 @@ import {
     smart,
     visita,
     cashflow,
+    xband,
+    kisan,
     next,
-    firebase,  
+    firebase,
+    apex,  
   } from "../assets";
   
   export const navLinks = [
@@ -110,8 +113,18 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Karmacharikerala",
+      title: "Oracle Apex Intern",
+      company_name: "Maathra Technology & Consultancy Pvt Ltd",
+      icon: apex,
+      iconBg: "#383E56",
+      date: "July 2024 - August 2024",
+      points: [
+        "Developed enterprise-level management software utilizing Oracle APEX and JavaScript DayPilot Scheduler, creating a robust and user-friendly scheduling system.",
+      ],
+    },
+    {
+      title: "Web  Developer Intern",
+      company_name: "IHRD",
       icon: karamchari,
       iconBg: "#383E56",
       date: "April 2023 - May 2023",
@@ -123,8 +136,8 @@ import {
       ],
     },
     {
-      title: "Android Developer",
-      company_name: "Sangameswara Ayurvedic Medicity",
+      title: "Android Developer Intern",
+      company_name: "IHRD",
       icon: sanga,
       iconBg: "#E6DEDD",
       date: "Marh 2023 - April 2023",
@@ -167,6 +180,27 @@ import {
   
   const projects = [
     {
+      name: "XTend",
+      description:
+        "Developed a health band that monitors heart rate, detects falls, tracks location, and sends real-time alerts to caregivers through a mobile app to enhance the safety of elderly patients.",
+      tags: [
+        {
+          name: "flutter",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "hardware",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: xband,
+      source_code_link: "https://github.com/Venture-Xs/xTend-app",
+    },
+    {
       name: "Visita",
       description:
         "Visita Host is a travel app designed to help tourists find affordable and cheap accommodation options for their travel, thereby reducing their overall travel budget.",
@@ -178,10 +212,6 @@ import {
         {
           name: "mongodb",
           color: "green-text-gradient",
-        },
-        {
-          name: "dart",
-          color: "pink-text-gradient",
         },
       ],
       image: visita,
@@ -205,6 +235,27 @@ import {
       source_code_link: "https://github.com/AnishPillai2002/CashFlow",
     },
     {
+      name: "Fasal",
+      description:
+        "Fasal is a comprehensive app that empowers farmers with agricultural and financial knowledge, enabling informed decision-making, resource management, and financial security.",
+      tags: [
+        {
+          name: "flutter",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "open-ai",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: kisan,
+      source_code_link: "https://github.com/Venture-Xs/Fasal_App",
+    },
+    {
       name: "SmartBrief",
       description:
         "SmartBrief is a web app that uses OpenAI to summarize articles. Simply paste the URL of a webpage, and it will generate a summary for you.",
@@ -217,6 +268,10 @@ import {
           name: "tailwind-css",
           color: "pink-text-gradient",
         },
+        {
+          name: "open-ai",
+          color: "pink-text-gradient",
+        }
       ],
       image:smart,
       source_code_link: "https://github.com/AnishPillai2002/SmartBrief/",
