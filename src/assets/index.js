@@ -38,6 +38,7 @@ import visita from "./visita.png";
 import cashflow from "./cashflow.png";
 import xband from "./xband.png";
 import kisan from "./kisan.png";
+import expensetracker from "./expensetracker.png"
 
 export {
   logo,
@@ -76,5 +77,6 @@ export {
   visita,
   cashflow,
   xband,
-  kisan
+  kisan,
+  expensetracker
 };

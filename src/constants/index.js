@@ -20,6 +20,7 @@ import {
     cashflow,
     xband,
     kisan,
+    expensetracker,
     next,
     firebase,
     apex,  
@@ -216,6 +217,27 @@ import {
       ],
       image: visita,
       source_code_link: "https://github.com/AnishPillai2002/Visita_Host",
+    },
+    {
+      name: "Expense Tracker",
+      description:
+        " Developed a comprehensive web application to track daily expenses, utilizing Spring Boot to implement full CRUD (Create, Read, Update, Delete) operations",
+      tags: [
+        {
+          name: "Spring Boot",
+          color: "green-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: expensetracker,
+      source_code_link: "https://github.com/AnishPillai2002/ExpenseTracker",
     },
     {
       name: "CashFlow",
